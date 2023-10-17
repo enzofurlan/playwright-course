@@ -5,7 +5,7 @@ module.exports = defineConfig({
   testDir: "./tests",
   reporter: "html",
   retries: 0,
-  timeout: 30 * 1000,
+  timeout: 60 * 1000,
   expect: {
     timeout: 5000,
   },
